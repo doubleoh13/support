@@ -1,0 +1,21 @@
+{
+    "name": "doubleoh13/support",
+    "description": "A package of helpers that I've found useful",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jake Richhart",
+            "email": "jake@jakerichhart.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "DoubleOh13\\Support\\": "src/"
+        }
+    }
+}
